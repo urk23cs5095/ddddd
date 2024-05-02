@@ -1,1 +1,73 @@
-beulah
+how to git push?
+after creating and opening git bash in a folder:
+git clone <url>
+ls
+cd <repository name>
+git status
+
+add something in a note pad:
+git status
+git add -A
+git commit -m"adding new file"
+git push origin main
+
+check github:
+how to create branch?
+git status
+git checkout -b fix
+git status
+
+make changes in notepad:
+git status
+git add -A
+git commit -m"update"
+git push origin fix
+
+check if branch has been created:
+how to merge two branches?
+git checkout main
+git status
+git merge fix main
+git push origin main
+
+now the new line will be added:
+
+
+
+
+
+
+
+5th (collaborators):
+git clone <partners url>
+ls
+cd <name in ls>
+git remote -v
+git remote add upstream <my url>
+git fetch upstream
+git branch (or) git checkout main
+git merge upstream/(master) or (main)
+git push origin main
+
+
+
+
+
+
+
+
+6th:
+git init
+git clone <url>
+cd <repo name>
+git submodule add <url>
+git status
+git add -A
+git commit -m"submodule"
+git push -u origin main (or) git push origin main
+git submodule deinit --all
+git status
+git config --global alias.st status
+git st 
+git config --global alias.br branch
+git br
